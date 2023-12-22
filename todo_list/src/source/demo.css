@@ -1,0 +1,56 @@
+#outer_div {
+    width: 500px;
+    overflow: auto;
+    min-height: 100vh;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+#main_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    color: white;
+    width: 150px;
+    height: 40px;
+    font: 20px bold;
+    border: none;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+input{
+    /* height: 40px; */
+    border-radius: 20px;
+    border: none;
+    margin-right: 20px;
+    padding: 10px;
+}
+input:focus{
+    outline: none;
+}
+ul>li {
+    font-size: larger;
+}
+
+li {
+    display: flex;
+    padding-right: 30px;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-left: 0;
+    align-items: center;
+}
+
+#FontAwesomeIcon:hover {
+    cursor: pointer;
+    margin: 0;
+}
