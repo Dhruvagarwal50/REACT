@@ -24,19 +24,22 @@ button {
     border-radius: 20px;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
-input{
+
+input {
     /* height: 40px; */
     border-radius: 20px;
     border: none;
     margin-right: 20px;
     padding: 10px;
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
+
 ul>li {
     font-size: larger;
 }
@@ -47,10 +50,47 @@ li {
     justify-content: space-between;
     margin-top: 15px;
     padding-left: 0;
+    text-overflow: auto;
     align-items: center;
 }
 
 #FontAwesomeIcon:hover {
     cursor: pointer;
     margin: 0;
+}
+
+#span {
+    width: 350px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+.popUp {
+    width: 400px;
+    height: 300px;
+    background-color: aqua;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 20vh;
+}
+
+.innerDiv {
+    display: flex;
+    height: 100%;
+}
+.innerDiv>form{
+    /* align-items: center; */
+    margin: auto;
+    margin-top: 60px;
+}
+.innerDiv>form>button{
+
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.faCross{
+    margin-left: 90%;
+    margin-top: 20px;
+    font-size: larger;
 }
